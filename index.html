@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <title>Jamie Jann</title>
 
     <!-- Bootstrap core CSS -->
@@ -37,12 +37,13 @@
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <!-- TODO: refactor inline styling -->
+          <ul style="font-family: 'Source Code Pro', monospace;" class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#downloads">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -53,23 +54,21 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="masthead">
+    <header style="background-size: auto; background: url(img/photo.jpeg) no-repeat center;
+      width: 100%" class="masthead">
       <div class="intro-body">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <!--<h1 class="brand-heading">Grayscale</h1>-->
 
-                <p href="" class="typewrite" data-period="2000" data-type='[ "Hi, my name is Jamie", "I am a software developer", "I love to code.", "Below are some of my projects"]'>
-
+                <p href="" class="typewrite" data-period="2000" data-type='[ "Hi.", "my name is Jamie.", "I am a software developer.", "I love to code.", "Below are some of my projects."]'>
                   <span class="wrap"></span>
                 </p>
 
-              <!-- Circle
+              <!-- Circle -->
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
-              -->
             </div>
           </div>
         </div>
@@ -80,9 +79,9 @@
     <section id="about" class="content-section text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div style="font-family: 'Source Code Pro', monospace" class="col-lg-8 mx-auto">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, hinc urbanitas dissentias sit in. Sea habemus deleniti et, nam ut quot integre facilisi. Nibh ridens ponderum at mel,</p>
+            <p>I'm currently a third-year computer science student studying at Simon Fraser University.</p>
             <p>Lorem ipsum dolor sit amet, hinc urbanitas dissentias sit in. Sea habemus deleniti et, nam ut quot integre facilisi. Nibh ridens ponderum at mel,</p>
             <p>Lorem ipsum dolor sit amet, hinc urbanitas dissentias sit in. Sea habemus deleniti et, nam ut quot integre facilisi. Nibh ridens ponderum at mel,</p>
           </div>
@@ -90,7 +89,7 @@
       </div>
     </section>
 
-    <!-- Download Section -->
+    <!-- Projects Section -->
     <!--
     <section id="download" class="download-section content-section text-center">
       <div class="container">
@@ -100,7 +99,8 @@
           <a href="" class="btn btn-default btn-lg">Link Title</a>
         </div>
       </div>
-    </section> -->
+    </section>
+    -->
 
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
@@ -135,12 +135,12 @@
     </section>
 
     <!-- Map Section -->
-    <!-- <div id="map"></div> -->
+    <div id="map"></div>
 
     <!-- Footer -->
     <footer>
       <div class="container text-center">
-        <p>Copyright &copy; Jamie Jann 2018</p>
+        <p class="copyright">Copyright &copy; Jamie Jann 2018</p>
       </div>
     </footer>
 
@@ -152,8 +152,8 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <!-- Google Maps API Key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWSrmET_RXXqRItV2URvBd-kpz99SgIs0&sensor=false"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>

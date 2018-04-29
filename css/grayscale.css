@@ -124,8 +124,6 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  /*background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;*/
-  background: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -134,6 +132,7 @@ a:focus, a:hover {
 
 .masthead .intro-body {
   display: table-cell;
+
   vertical-align: middle;
 }
 
