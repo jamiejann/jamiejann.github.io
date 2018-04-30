@@ -6,3 +6,25 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 }
+
+
+/* RES */
+body {
+    margin:0;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8rem;
+}
+main{
+    width: 800px;
+    margin: 50px auto;
+}
+.left {
+    float: left;
+}
+.middle {
+    vertical-align: top;
+    display: inline-block;
+}
+.left {
+    float: right;
+}

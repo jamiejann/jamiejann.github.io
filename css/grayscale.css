@@ -194,8 +194,10 @@ a:focus, a:hover {
 }
 
 #map {
-  width: 100%;
+  /*width: 100%;*/
+  width: 35%;
   height: 300px;
+  margin: auto;
 }
 
 @media (min-width: 992px) {

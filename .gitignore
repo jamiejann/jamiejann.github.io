@@ -1,0 +1,7 @@
+.idea/
+.travis.yml
+gulpfile.js
+package.json
+package-lock.json
+README.md
+
