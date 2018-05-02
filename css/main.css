@@ -1,3 +1,4 @@
+/* MAIN */
 .typewrite{
     font-family: 'Source Code Pro', monospace;
     font-size: 30px;
@@ -6,7 +7,6 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 }
-
 
 /* RES */
 body {
@@ -18,13 +18,26 @@ main{
     width: 800px;
     margin: 50px auto;
 }
+header{
+    text-align: center;
+}
 .left {
     float: left;
+    font-family: monospace, Arial;
+    font-weight: bold;
 }
 .middle {
-    vertical-align: top;
     display: inline-block;
+    vertical-align: top;
+    font-family: monospace, Arial;
+    font-weight: lighter;
 }
-.left {
+.right {
     float: right;
+    font-family: monospace, Arial;
+    font-weight: bold;
 }
+.indent{
+
+}
+
