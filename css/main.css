@@ -20,24 +20,39 @@ main{
 }
 header{
     text-align: center;
+    font-family: monospace, Arial;
+}
+.headers{
+    font-family: monospace, Arial;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.headers h1{
+    font-size: 12px;
 }
 .left {
     float: left;
-    font-family: monospace, Arial;
     font-weight: bold;
 }
 .middle {
     display: inline-block;
     vertical-align: top;
-    font-family: monospace, Arial;
     font-weight: lighter;
 }
 .right {
     float: right;
-    font-family: monospace, Arial;
     font-weight: bold;
 }
 .indent{
-
+    margin: 15px 0 15px 35px;
+    max-width: 800px;
+    line-height: 1.2;
+}
+.indent ul{
+    margin: 15px 0 23px 0;
+    text-align: justify;
+}
+.indent li{
+    margin-bottom: 5px;
 }
 
