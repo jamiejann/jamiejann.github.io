@@ -7,3 +7,46 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 15px;
 }
+.projects-img {
+    text-align: justify;
+}
+.projects-img img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 0 100px 0 100px;
+}
+.projects-img:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+/* Image hover
+.walking-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.projects-img:hover .walking-overlay{
+    opacity: 0.5;
+}
+.walking-text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}*/
+
