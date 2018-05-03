@@ -24,15 +24,18 @@ header{
 .left {
     float: left;
     font-weight: bold;
+    font-size: 0.83rem;
 }
 .middle {
     display: inline-block;
     vertical-align: top;
     font-weight: lighter;
+    font-size: 0.83rem;
 }
 .right {
     float: right;
     font-weight: bold;
+    font-size: 0.83rem;
 }
 .indent{
     margin: 15px 0 15px 35px;
