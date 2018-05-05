@@ -23,18 +23,18 @@ header{
 }
 .left {
     float: left;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 0.83rem;
 }
 .middle {
     display: inline-block;
     vertical-align: top;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 0.83rem;
 }
 .right {
     float: right;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 0.83rem;
 }
 .indent{
@@ -48,5 +48,6 @@ header{
 }
 .indent li{
     margin-bottom: 5px;
+    list-style-type: circle;
 }
 
